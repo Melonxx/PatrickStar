@@ -97,17 +97,18 @@
       margin-left: 100px;
     }
 
-    
+
 
     .haha {
-      background-color: #7d0c0e;
+      background-color: #FF485F;
       width: 200px;
-      height: 50px;
-      border-bottom: 20px solid #FF485F;
+      height: 20px;
+      border-top: 50px solid #7d0c0e;
       border-radius: 50% 50% 50% 50%/31% 31% 69% 69%;
       transform: translateY(-10px);
       visibility: hidden;
     }
+
     .face:hover .pupil {
       width: 10px;
       height: 10px;
@@ -118,16 +119,23 @@
     .face:hover .haha {
       visibility: visible;
     }
-    .face:hover .haha {
-      visibility: visible;
-    }
+
     .face:hover .eyebrow {
       animation: eyebrowHaha 2s infinite ease-in-out;
     }
+
     @keyframes eyebrowHaha {
-      0% {top: -45px;}
-      50% {top: -60px;}
-      100% {top: -45px;}
+      0% {
+        top: -45px;
+      }
+
+      50% {
+        top: -60px;
+      }
+
+      100% {
+        top: -45px;
+      }
     }
   </style>
 </head>
